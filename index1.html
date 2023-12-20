@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js1.js" defer></script>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ele Indi Bir Toxunusla sifaris et</h1>
+
+      <div class="button">
+        <button onclick="yarad(this)">debet</button>
+        <button onclick="yarad(this)">kredit</button>
+        <button>Lokal</button>
+        <button>Virtual</button>
+      </div>
+
+      <div class="select">
+       
+        <select onchange="deyis('debet',this)" id="s1"></select>
+        <select onchange="deyis('kredit',this)" id="s2"></select>
+      </div>
+
+      <div class="cart">
+
+        <div class="left"></div>
+        <div class="right"></div>
+        
+      </div>
+
+    </div>
+
+
+  </body>
+</html>
